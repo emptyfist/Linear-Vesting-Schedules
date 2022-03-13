@@ -24,10 +24,10 @@ npx hardhat test
 
 - Clean Project
 ```
-npx hardhat test
+npx hardhat clean
 ```
 
 - Deploy
 ```
-npx hardhat run scripts/<deploy.js> --network ropsten.
+npx hardhat run scripts/deploy.js --network ropsten.
 ```
