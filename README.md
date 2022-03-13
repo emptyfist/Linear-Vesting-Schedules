@@ -10,6 +10,23 @@ For example, a user calls mint("0xD533a949740bb3306d119CC777fa900bA034cd52", toA
 - Please use github private repo to track your work and share with @renruyi on github. How you organize your repo. How you commit and push is also part of the evaluation.
 - As simple as this contract sounds, there are a few pitfalls. When reviewing, we will be looking at how you handle these potential issues. As you know, security is out top concern.
 
+## Basic Fundamental
+
+Brief introduction how to make hardhat project for beginner.
+> If you have exp about hardhat project, skip this part
+```
+mkdir hardhat-tutorial
+cd hardhat-tutorial
+npm init --yes
+npm install --save-dev hardhat
+npx hardhat
+
+npm install --save-dev @nomiclabs/hardhat-ethers ethers @nomiclabs/hardhat-waffle ethereum-waffle chai
+
+npx hardhat run scripts/deploy.js --network ropsten
+```
+You can follow above steps to create project[^1]
+
 ## Install && Test
 
 - Build Project
@@ -31,3 +48,5 @@ npx hardhat clean
 ```
 npx hardhat run scripts/deploy.js --network ropsten.
 ```
+
+[^1]: https://hardhat.org/tutorial/
